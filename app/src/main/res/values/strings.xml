@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">VASOOL_DRIVE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="REMINDER">REMINDER</string>
+    <string name="NOTES">NOTES</string>
+    <string name="collection">Collection</string>
+    <string name="expense">Expense</string>
+    <string name="setting">Settings</string>
+    <string name="Customer">Customer</string>
+    <string name="Report">Reports</string>
+    <string name="EXPENSE">EXPENSE</string>
+    <string name="INVESTMENT">INVESTMENT</string>
+    <string name="searchbydate">Search By Date</string>
+    <string name="AddExpense">Add Expense</string>
+    <string name="AddInvestment">Add Investment</string>
+    <string name="Line">Line</string>
+    <string name="message">Line</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ExpenseTypeName">Expense Type Name</string>
+    <string name="ExpenseAmount">Expense Amount</string>
+    <string name="ExpenseDate">Expense Date</string>
+    <string name="comments">Comments</string>
+    <string name="Date">Date</string>
+    <string name="save">SAVE</string>
+    <string name="InvestmentTypeName">Investment Type Name</string>
+    <string name="InvestedAmount">Invested Amount</string>
+    <string name="InvestmentDate">Investment Date</string>
+    <string name="FromDate">From Date</string>
+    <string name="ToDate">To Date</string>
+    <string name="Area">Area</string>
+    <string name="Plan">Plan</string>
+    <string name="DailySummary">Daily Summary</string>
+    <string name="LineSummary">Line Summary</string>
+    <string name="ExpenseSummary">Expense Summary</string>
+    <string name="InvestmentSummary">Investment Summary</string>
+    <string name="Investment_Expense_Summary">Investment/Expense Summary</string>
+    <string name="Book_Excess_Loss_Summary">Book Excess Loss Summary</string>
+    <string name="Loan_Summary">Loan Summary</string>
+    <string name="New_Customer_Summary">New Customer Summary</string>
+    <string name="Bad_Loan_Summary">Bad Loan Summary</string>
+    <string name="New_Bad_Load_By_Date_Summary">New Bad Load By Date Summary</string>
+    <string name="Missing_Customer_Summary">Missing Customer Summary</string>
+    <string name="Completed_Loan_Summary">Completed Loan Summary</string>
+    <string name="Non_Performance_Loan_Report">Non Performance Loan Report</string>
+    <string name="Loan_Analysis">Loan Analysis</string>
+    <string name="Ledger_Report">Ledger Report</string>
+    <string name="Support">Support</string>
+    <string name="License">License</string>
+    <string name="ImportLine">Import Line</string>
+    <string name="ExportLine">Export Line</string>
+    <string name="ExpenseType">Expense Type</string>
+    <string name="InvestmentType">Investment Type</string>
+    <string name="Site">Site</string>
+    <string name="MySetting">My Setting</string>
+    <string name="EnableFingreprint">Enable Fingreprint</string>
+    <string name="EnableSecurityAlert">Enable Security Alert</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="Signout">Sign Out</string>
+    <string name="LineType">Line Type</string>
+    <string name="Daily">Daily</string>
+    <string name="View">VIEW</string>
+    <string name="Submit">SUBMIT</string>
+    <string name="Download">DOWNLOAD</string>
+    <string name="Tamil">TAMIL</string>
+    <string name="English">ENGLISH</string>
+    <string name="mobileno">7083116525</string>
+    <string name="emailsupport">sonwanedarshan9637@gmail.com</string>
+    <string name="AddLine">Add Line</string>
+    <string name="LineName">Line Name</string>
+    <string name="BillAmountPerHundread">BillAmountPerHundread</string>
+    <string name="NoOfInstall">No Of Install</string>
+    <string name="BadLoanDays">Bad Loan Days</string>
+    <string name="SAVE">SAVE</string>
+    <string name="EditLine">Edit Line</string>
+    <string name="call">CALL</string>
+    <string name="pay">PAY</string>
+    <string name="IMPORT">IMPORT</string>
+    <string name="downloadSampleCSV">DOWNLOAD SAMPLE CSV</string>
+    <string name="Help">Help</string>
+    <string name="info">Customer Name</string>
+    <string name="History">History</string>
+    <string name="EmailId">Email ID</string>
+    <string name="sendMail">SEND MAIL (CSV)</string>
+    <string name="sendMail_Excel">SEND MAIL (EXCEL)</string>
+    <string name="downloadPDF">DOWNLOAD PDF</string>
+    <string name="Landscape">Landscape</string>
+    <string name="Portait">Portait</string>
+    <string name="AddArea">Add Area</string>
+    <string name="AreaName">Area Name</string>
+    <string name="EditArea">Edit Area</string>
+    <string name="AddEpenseType">Add Expense Type</string>
+    <string name="Status">Status</string>
+    <string name="Active">Active</string>
+    <string name="EditExpenseType">Edit Expense Type</string>
+    <string name="AddInvestmentType">Add Investment Type</string>
+    <string name="TrackInvestment">Track Investment</string>
+    <string name="EditInvestmentType">Edit Investment Type</string>
+    <string name="SiteName">Site Name</string>
+    <string name="EditSite">Edit Site</string>
+    <string name="MobileNo">Mobile Number</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="Agreement">Agreement</string>
+    <string name="OtherSettings">Other Settings</string>
+    <string name="ShowTotalInvestmentInVasool">Show Total Investment In Vasool</string>
+    <string name="ShowAmountInVasool">Show Amount In Vasool</string>
+    <string name="ShowPendingAmount">Show Pending Amount</string>
+    <string name="SendSMS">Send SMS</string>
+    <string name="OrderBy">Order By</string>
+    <string name="CustomerOrder">Customer Order</string>
+    <string name="Printer">Printer</string>
+    <string name="profileSettings">Profile Settings</string>
+    <string name="Language">Language</string>
+    <string name="Theme">Theme</string>
+    <string name="PrimarySite">Primary Site</string>
+    <string name="PrimarySite1">darshan123</string>
+    <string name="Orange">Orange</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="Dark">Dark</string>
+    <string name="DisableFingerprint">Disable Fingerprint</string>
+    <string name="Password">Password</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="Info">When a new login attempt is made in new device, OTP will be sent to registered email address</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Today">TODAY</string>
+    <string name="add_reminder">ADD REMINDER</string>
+    <string name="remindertext">reminderText</string>
+    <string name="ReminderDate">Reminder Date</string>
+    <string name="ReminderText">Reminder Text</string>
+    <string name="notes">Notes</string>
+    <string name="Note">Note</string>
+    <string name="UserName">USER NAME</string>
+    <string name="ForgotPassword">Forgot Password ?</string>
+    <string name="OPENANACCOUNT">OPEN AN ACCOUNT</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="Next">NEXT</string>
+    <string name="CONFIRMPASSWORD">CONFIRM PASSWORD</string>
+    <string name="UserNAME">User Name</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Register">Register</string>
+    <string name="ForgotPassword1">Forgot Password</string>
+    <string name="SendOTP">SEND OTP</string>
+    <string name="RESETPASSWORD">RESET PASSWORD</string>
+    <string name="NoticeMsg">OTP will be sent to your registered email address. You can reset password using the OTP.</string>
+    <string name="OTP">OTP</string>
+    <string name="ImportCustomer">Import Customer</string>
+    <string name="Total">Total</string>
+    <string name="Number">(0)</string>
+    <string name="AddCustomer">Add Customer</string>
+    <string name="CustomerName">Customer Name</string>
+    <string name="CustomerCode">Customer Code</string>
+    <string name="SubCode">Sub Code</string>
+    <string name="AlternateMobile">Alternate Mobile</string>
+    <string name="Business">Business</string>
+    <string name="MaxLoanAmount">Max Loan Amount</string>
+    <string name="IDNumer">ID Number</string>
+    <string name="Map">Map</string>
+    <string name="clear">Clear</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_search">search</string>
+    <string name="ContactName">Contact Name</string>
+    <string name="show">Show</string>
+    <string name="delete">Delete</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="Import">Import</string>
+    <string name="LineID">LineId</string>
+    <string name="docId">Document Id</string>
+    <string name="FingerPrintLogin">FINGERPRINT LOGIN</string>
+
+    <string-array name="line">
+        <item>Daily</item>
+        <item>Weekely</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Active</item>
+        <item>Inactive</item>
+
+    </string-array>
+
+    <string-array name="lineType">
+        <item>Daily</item>
+        <item>Weekely</item>
+        <item>Monthly</item>
+        <item>Monthly(Interest)</item>
+        <item>Enterprise</item>
+    </string-array>
+
+</resources>

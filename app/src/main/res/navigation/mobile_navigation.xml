@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.example.vasool_drive.fragments.CollectionFragment"
+        android:label="fragment_collection"
+        tools:layout="@layout/fragment_collection" />
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.example.vasool_drive.fragments.notification.ReminderFragment"
+        android:label="fragment_reminder"
+        tools:layout="@layout/fragment_reminder" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.vasool_drive.fragments.notification.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.vasool_drive.fragments.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.vasool_drive.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.example.vasool_drive.fragments.ExpenseFragment"
+        android:label="fragment_expense"
+        tools:layout="@layout/fragment_expense" />
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.example.vasool_drive.fragments.ExpensesFragment"
+        android:label="fragment_expenses"
+        tools:layout="@layout/fragment_expenses" />
+    <fragment
+        android:id="@+id/investmentFragment"
+        android:name="com.example.vasool_drive.fragments.InvestmentFragment"
+        android:label="fragment_investment"
+        tools:layout="@layout/fragment_investment" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.vasool_drive.fragments.AddExpenseFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <dialog
+        android:id="@+id/lineDialogFragment"
+        android:name="com.example.vasool_drive.fragments.LineDialogFragment"
+        android:label="fragment_line_dialog"
+        tools:layout="@layout/fragment_line_dialog" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.example.vasool_drive.fragments.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" >
+    </fragment>
+    <fragment
+        android:id="@+id/planFragment2"
+        android:name="com.example.vasool_drive.fragments.reportfragments.PlanFragment"
+        android:label="fragment_plan"
+        tools:layout="@layout/fragment_plan" />
+    <fragment
+        android:id="@+id/dailySummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.DailySummary.DailySummaryFragment"
+        android:label="fragment_daily_summary"
+        tools:layout="@layout/fragment_daily_summary" />
+    <fragment
+        android:id="@+id/lineSummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.LineSummary.LineSummaryFragment"
+        android:label="fragment_line_summary"
+        tools:layout="@layout/fragment_line_summary" />
+    <fragment
+        android:id="@+id/expenseSummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.ExpenseSummary.ExpenseSummaryFragment"
+        android:label="fragment_expense_summary"
+        tools:layout="@layout/fragment_expense_summary" />
+    <fragment
+        android:id="@+id/investmentSummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.InvestmentSummary.InvestmentSummaryFragment"
+        android:label="fragment_investment_summary"
+        tools:layout="@layout/fragment_investment_summary" />
+    <fragment
+        android:id="@+id/investment_ExpenseSummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.Investment_ExpenseSummary.Investment_ExpenseSummaryFragment"
+        android:label="fragment_investment__expense_summary"
+        tools:layout="@layout/fragment_investment__expense_summary" />
+    <fragment
+        android:id="@+id/book_Excess_Loss_Summary_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.BookExcessLossSummary.Book_Excess_Loss_Summary_Fragment"
+        android:label="fragment_book__excess__loss__summary_"
+        tools:layout="@layout/fragment_book__excess__loss__summary_" />
+    <fragment
+        android:id="@+id/loan_SummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.LoanSummary.Loan_SummaryFragment"
+        android:label="fragment_loan__summary"
+        tools:layout="@layout/fragment_loan__summary" />
+    <fragment
+        android:id="@+id/new_Customer_Summary_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.NewCustomerSummary.New_Customer_Summary_Fragment"
+        android:label="fragment_new__customer__summary_"
+        tools:layout="@layout/fragment_new__customer__summary_" />
+    <fragment
+        android:id="@+id/bad_Loan_Summary_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.BadLoanSummary.Bad_Loan_Summary_Fragment"
+        android:label="fragment_bad__loan__summary_"
+        tools:layout="@layout/fragment_bad__loan__summary_" />
+    <fragment
+        android:id="@+id/new_Bad_Loan_By_Date_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.NewBadLoanByDateSummary.New_Bad_Loan_By_Date_Fragment"
+        android:label="fragment_new__bad__loan__by__date_"
+        tools:layout="@layout/fragment_new__bad__loan__by__date_" />
+    <fragment
+        android:id="@+id/missing_Customer_SummaryFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.MissingCustomerSummary.Missing_Customer_SummaryFragment"
+        android:label="fragment_missing__customer__summary"
+        tools:layout="@layout/fragment_missing__customer__summary" />
+    <fragment
+        android:id="@+id/completed_Loan_Summary_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.CompletedLoanSummary.Completed_Loan_Summary_Fragment"
+        android:label="fragment_completed__loan__summary_"
+        tools:layout="@layout/fragment_completed__loan__summary_" />
+    <fragment
+        android:id="@+id/non_Performance_Loan_Report_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.NonPerformanceLoanReport.Non_Performance_Loan_Report_Fragment"
+        android:label="fragment_non__performance__loan__report_"
+        tools:layout="@layout/fragment_non__performance__loan__report_" />
+    <fragment
+        android:id="@+id/loan_Analysis_Fragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.LoanAnalysis.Loan_Analysis_Fragment"
+        android:label="fragment_loan__analysis_"
+        tools:layout="@layout/fragment_loan__analysis_" />
+    <fragment
+        android:id="@+id/ledger_Repor_tFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.LedgerReport.Ledger_Repor_tFragment"
+        android:label="fragment_ledger__repor_t"
+        tools:layout="@layout/fragment_ledger__repor_t" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/licenseFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.LicenseFragment"
+        android:label="fragment_license"
+        tools:layout="@layout/fragment_license" />
+    <fragment
+        android:id="@+id/lineFragment"
+        android:name="com.example.vasool_drive.fragments.reportfragments.Plan.LineFragment"
+        android:label="fragment_line"
+        tools:layout="@layout/fragment_line" />
+    <fragment
+        android:id="@+id/importLineFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.ImportLineFragment"
+        android:label="fragment_import_line"
+        tools:layout="@layout/fragment_import_line" />
+    <fragment
+        android:id="@+id/areaFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.AreaFragment"
+        android:label="fragment_area"
+        tools:layout="@layout/fragment_area" />
+    <fragment
+        android:id="@+id/expenseTypeFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.ExpenseTypeFragment"
+        android:label="fragment_expense_type"
+        tools:layout="@layout/fragment_expense_type" >
+        <action
+            android:id="@+id/action_expenseTypeFragment_to_editExpenseTypeFragment"
+            app:destination="@id/editExpenseTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/investmentTypeFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.InvestmentTypeFragment"
+        android:label="fragment_investment_type"
+        tools:layout="@layout/fragment_investment_type" >
+        <action
+            android:id="@+id/action_investmentTypeFragment_to_editInvetmentTypeFragment"
+            app:destination="@id/editInvetmentTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/siteFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.SiteFragment"
+        android:label="fragment_site"
+        tools:layout="@layout/fragment_site" >
+        <action
+            android:id="@+id/action_siteFragment_to_editSiteFragment"
+            app:destination="@id/editSiteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mySettingsFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.MySettingsFragment"
+        android:label="fragment_my_settings"
+        tools:layout="@layout/fragment_my_settings" />
+    <fragment
+        android:id="@+id/enableFingerprintFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.EnableFingerprintFragment"
+        android:label="fragment_enable_fingerprint"
+        tools:layout="@layout/fragment_enable_fingerprint" />
+    <fragment
+        android:id="@+id/enable_SecurityAlert_Fragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.Enable_SecurityAlert_Fragment"
+        android:label="fragment_enable__security_alert_"
+        tools:layout="@layout/fragment_enable__security_alert_" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/signoutFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.SignoutFragment"
+        android:label="fragment_signout"
+        tools:layout="@layout/fragment_signout" />
+    <fragment
+        android:id="@+id/exportFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.ExportFragment"
+        android:label="fragment_export"
+        tools:layout="@layout/fragment_export" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.vasool_drive.fragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/customerFragment"
+        android:name="com.example.vasool_drive.fragments.CustomerFragment"
+        android:label="fragment_customer"
+        tools:layout="@layout/fragment_customer" />
+    <fragment
+        android:id="@+id/settingLineFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.SettingLineFragment"
+        android:label="fragment_setting_line"
+        tools:layout="@layout/fragment_setting_line" >
+        <action
+            android:id="@+id/action_settingLineFragment_to_editLineFragment"
+            app:destination="@id/editLineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingAddLineFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.SettingAddLineFragment"
+        android:label="fragment_setting_add_line"
+        tools:layout="@layout/fragment_setting_add_line" />
+    <fragment
+        android:id="@+id/editLineFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.EditLineFragment"
+        android:label="fragment_edit_line"
+        tools:layout="@layout/fragment_edit_line" >
+        <argument
+            android:name="SettingLineData"
+            app:argType="com.example.vasool_drive.classes.SettingLineData" />
+    </fragment>
+    <fragment
+        android:id="@+id/lineTypeDialogFragment"
+        android:name="com.example.vasool_drive.dialog.LineTypeDialogFragment"
+        android:label="fragment_line_type_dialog"
+        tools:layout="@layout/fragment_line_type_dialog" />
+    <fragment
+        android:id="@+id/addAreaFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.AddAreaFragment"
+        android:label="fragment_add_area"
+        tools:layout="@layout/fragment_add_area" />
+    <fragment
+        android:id="@+id/addReminderFragment"
+        android:name="com.example.vasool_drive.fragments.notification.AddReminderFragment"
+        android:label="fragment_add_reminder"
+        tools:layout="@layout/fragment_add_reminder" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.vasool_drive.fragments.notification.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="com.example.vasool_drive.fragments.notification.TodayFragment"
+        android:label="fragment_today"
+        tools:layout="@layout/fragment_today" />
+    <fragment
+        android:id="@+id/addInvestmentFragment"
+        android:name="com.example.vasool_drive.fragments.AddInvestmentFragment"
+        android:label="fragment_add_investment"
+        tools:layout="@layout/fragment_add_investment" />
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.AddExpenseFragment"
+        android:label="fragment_add_expense"
+        tools:layout="@layout/fragment_add_expense" />
+    <fragment
+        android:id="@+id/addInvestmentTypeFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.AddInvestmentTypeFragment"
+        android:label="fragment_add_investment_type"
+        tools:layout="@layout/fragment_add_investment_type" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.vasool_drive.fragments.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.vasool_drive.fragments.login.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.vasool_drive.fragments.login.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.example.vasool_drive.fragments.login.ResetPasswordFragment"
+        android:label="fragment_reset_password"
+        tools:layout="@layout/fragment_reset_password" />
+    <fragment
+        android:id="@+id/sendOTPFragment"
+        android:name="com.example.vasool_drive.fragments.login.SendOTPFragment"
+        android:label="fragment_send_o_t_p"
+        tools:layout="@layout/fragment_send_o_t_p" />
+    <fragment
+        android:id="@+id/importCustomerFragment"
+        android:name="com.example.vasool_drive.fragments.customersFragment.ImportCustomerFragment"
+        android:label="fragment_import_customer"
+        tools:layout="@layout/fragment_import_customer" />
+    <fragment
+        android:id="@+id/searchResultCustomerFragment"
+        android:name="com.example.vasool_drive.fragments.customersFragment.SearchResultCustomerFragment"
+        android:label="fragment_search_result_customer"
+        tools:layout="@layout/fragment_search_result_customer" />
+    <fragment
+        android:id="@+id/addCustomerFragment"
+        android:name="com.example.vasool_drive.fragments.customersFragment.AddCustomerFragment"
+        android:label="fragment_add_customer"
+        tools:layout="@layout/fragment_add_customer" />
+    <fragment
+        android:id="@+id/contactListFragment"
+        android:name="com.example.vasool_drive.fragments.customersFragment.ContactListFragment"
+        android:label="fragment_contact_list"
+        tools:layout="@layout/fragment_contact_list" />
+    <fragment
+        android:id="@+id/contactRecyclerListFragment"
+        android:name="com.example.vasool_drive.fragments.customersFragment.ContactRecyclerListFragment"
+        android:label="fragment_contact_recycler_list"
+        tools:layout="@layout/fragment_contact_recycler_list" />
+    <fragment
+        android:id="@+id/editExpenseTypeFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.EditExpenseTypeFragment"
+        android:label="fragment_edit_expense_type"
+        tools:layout="@layout/fragment_edit_expense_type" >
+        <argument
+            android:name="AddExpenseTypeData"
+            app:argType="com.example.vasool_drive.classes.AddExpenseTypeData" />
+        <argument
+            android:name="ExpenseTypeName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/editInvetmentTypeFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.EditInvetmentTypeFragment"
+        android:label="fragment_edit_invetment_type"
+        tools:layout="@layout/fragment_edit_invetment_type" >
+        <argument
+            android:name="InvestmentTypeData"
+            app:argType="com.example.vasool_drive.classes.AddInvestmentTypeData" />
+        <argument
+            android:name="ItemId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/editSiteFragment"
+        android:name="com.example.vasool_drive.fragments.settingfragment.EditSiteFragment"
+        android:label="fragment_edit_site"
+        tools:layout="@layout/fragment_edit_site" >
+        <argument
+            android:name="SiteData"
+            app:argType="com.example.vasool_drive.classes.SiteData" />
+        <argument
+            android:name="@string/SiteName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

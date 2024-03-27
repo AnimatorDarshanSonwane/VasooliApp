@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VASOOL_DRIVE" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightDark</item>
+        <item name="colorPrimaryVariant">@color/Dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background brand color. -->
+
+        <item name="backgroundColor">@color/black</item>
+        <item name="colorOnBackground">@color/white</item>
+
+        <!-- Surface brand color. -->
+        <item name="colorSurface">@color/lightDark</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Error brand color. -->
+        <item name="colorError">@color/red</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="strokeColor">@color/lightGreen</item>
+        <item name="android:colorBackgroundFloating">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/backgroundColor</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/collectionFragment"
+        android:enabled="true"
+        android:icon="@drawable/collection"
+        android:title="@string/collection"/>
+    <item
+        android:id="@+id/expenseFragment"
+        android:enabled="true"
+        android:icon="@drawable/expense"
+        android:title="@string/expense"/>
+    <item
+        android:id="@+id/customerFragment"
+        android:enabled="true"
+        android:icon="@drawable/customer"
+        android:title="@string/Customer"/>
+    <item
+        android:id="@+id/reportFragment"
+        android:enabled="true"
+        android:icon="@drawable/report"
+        android:title="@string/Report"/>
+    <item
+        android:id="@+id/settingFragment"
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:title="@string/setting"/>
+</menu>

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorSurface"
+    tools:context=".fragments.SettingFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.VASOOL_DRIVE.AppBarOverlay">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="10dp"
+            android:orientation="horizontal"
+            android:background="?colorPrimary">
+
+            <TextView
+                android:id="@+id/et_Setting"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_weight="3"
+                android:text="@string/setting"
+                android:textColor="?colorOnPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layoutMain">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_drawable"
+            android:orientation="vertical"
+            android:background="?backgroundColor"
+            android:showDividers="end">
+
+            <LinearLayout
+                android:id="@+id/layout0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?colorPrimary"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/support"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/support" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:divider="@drawable/divider_drawable"
+                    android:orientation="vertical"
+                    android:showDividers="end"
+                    android:id="@+id/lysupport">
+
+                    <TextView
+                        android:id="@+id/Support"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="@string/Support"
+                        android:textColor="?colorOnSurface"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:background="?colorPrimary"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_License"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:src="@drawable/license"
+                    android:scaleType="centerCrop"
+                    android:backgroundTint="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:divider="@drawable/divider_drawable"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <TextView
+                        android:id="@+id/tv_License"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="@string/License"
+                        android:textColor="?colorOnSurface"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_drawable"
+            android:background="?backgroundColor"
+            android:orientation="vertical"
+            android:showDividers="end"
+            >
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?colorPrimary"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_Line"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:src="@drawable/line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:divider="@drawable/divider_drawable"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <TextView
+                        android:id="@+id/tv_Line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="@string/Line"
+                        android:textColor="?colorOnSurface"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?colorPrimary"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_ImportLine"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:backgroundTint="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:src="@drawable/importtype" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:divider="@drawable/divider_drawable"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <TextView
+                        android:id="@+id/tv_ImportLine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="@string/ImportLine"
+                        android:textColor="?colorOnSurface"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?colorPrimary"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iv_ExportLine"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:backgroundTint="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:src="@drawable/export" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:divider="@drawable/divider_drawable"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <TextView
+                        android:id="@+id/tv_ExportLine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="@string/ExportLine"
+                        android:textColor="?colorOnSurface"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_drawable"
+                android:orientation="vertical"
+                android:background="?backgroundColor"
+                android:showDividers="end"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/layout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_Area"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/area" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_Area"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/Area"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_drawable"
+                android:background="?backgroundColor"
+                android:orientation="vertical"
+                android:showDividers="end"
+                >
+
+                <LinearLayout
+                    android:id="@+id/layout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_ExpenseType"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/expense" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_ExpenseType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/ExpenseType"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_InvestmentType"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/investmenttype" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_InvestmentType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/InvestmentType"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_drawable"
+                android:background="?backgroundColor"
+                android:orientation="vertical"
+                android:showDividers="end"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/layout13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?colorPrimary"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_Site"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/site" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_Site"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/Site"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_drawable"
+                android:background="?backgroundColor"
+                android:orientation="vertical"
+                android:showDividers="end"
+                >
+
+                <LinearLayout
+                    android:id="@+id/layout15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_MySetting"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/settings" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_MySetting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/MySetting"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_EnableFingerprint"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/enablefingerprint" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_EnableFingrePrint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/EnableFingreprint"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_EnableSecurityAlert"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/enablesecurtiyalert" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_EnableSecurityAlert"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/EnableSecurityAlert"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_ChangePassword"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/changepassword" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:background="?colorSurface"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_ChangePassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/ChangePassword"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_drawable"
+                android:orientation="vertical"
+                android:showDividers="end"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/layout20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?colorPrimary"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv_Signout"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/signout" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:divider="@drawable/divider_drawable"
+                        android:orientation="vertical"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/tv_Signout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:text="@string/Signout"
+                            android:textColor="?colorError"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment">
+<!--    &lt;!&ndash;-->
+<!--    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@android:color/transparent"-->
+<!--        android:elevation="4dp"-->
+<!--        android:padding="12dp"-->
+<!--        app:bnc_mode="spread"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+<!--            android:id="@+id/trending"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:bt_active="true"-->
+<!--            app:bt_colorActive="@android:color/holo_blue_dark"-->
+<!--            app:bt_colorInactive="@android:color/black"-->
+<!--            app:bt_icon="@drawable/collection"-->
+<!--            app:bt_padding="10dp"-->
+<!--            app:bt_title="@string/collection"-->
+<!--            app:bt_titlePadding="10dp" />-->
+
+<!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+<!--            android:id="@+id/category"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:bt_active="true"-->
+<!--            app:bt_colorActive="@android:color/holo_blue_dark"-->
+<!--            app:bt_colorInactive="@android:color/black"-->
+<!--            app:bt_icon="@drawable/expense"-->
+<!--            app:bt_padding="10dp"-->
+<!--            app:bt_title="@string/expense"-->
+<!--            app:bt_titlePadding="10dp" />-->
+
+<!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+<!--            android:id="@+id/favourite"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:bt_active="true"-->
+<!--            app:bt_colorActive="@android:color/holo_blue_dark"-->
+<!--            app:bt_colorInactive="@android:color/black"-->
+<!--            app:bt_icon="@drawable/customer"-->
+<!--            app:bt_padding="10dp"-->
+<!--            app:bt_title="@string/Customer"-->
+<!--            app:bt_titlePadding="10dp" />-->
+
+<!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+<!--            android:id="@+id/report"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:bt_active="true"-->
+<!--            app:bt_colorActive="@android:color/holo_blue_dark"-->
+<!--            app:bt_colorInactive="@android:color/black"-->
+<!--            app:bt_icon="@drawable/report"-->
+<!--            app:bt_padding="10dp"-->
+<!--            app:bt_title="@string/Report"-->
+<!--            app:bt_titlePadding="10dp" />-->
+<!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+<!--            android:id="@+id/setting"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:bt_active="true"-->
+<!--            app:bt_colorActive="@android:color/holo_blue_dark"-->
+<!--            app:bt_colorInactive="@android:color/black"-->
+<!--            app:bt_icon="@drawable/settings"-->
+<!--            app:bt_padding="10dp"-->
+<!--            app:bt_title="@string/setting"-->
+<!--            app:bt_titlePadding="10dp" />-->
+
+
+<!--        &lt;!&ndash; Add more child items here - max upto 5 &ndash;&gt;-->
+
+<!--    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>-->
+<!--    &ndash;&gt;-->
+
+
+
+
+
+
+</RelativeLayout>
